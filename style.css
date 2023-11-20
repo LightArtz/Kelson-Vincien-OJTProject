@@ -1,0 +1,234 @@
+body {
+    font-family: 'Inter';font-size: 20px;
+    font-weight: 400;
+}
+
+/* NAVIGATION BAR */
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    margin: 0px 128px;
+}
+
+.nav-bar img {
+    width: 160px;
+    height: 160px;
+    padding-right: 30px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left span {
+    color: #19A89D;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.right .text-1 {
+    padding: 64px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar-border {
+    height: 5px;
+    width: 100%;
+    background-color: #656565;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 630.67px;
+    margin: 73px 128px 150px 128px;
+}
+
+.header .left {
+    padding: 0px 246px 0px 0px;
+    justify-content: center;
+    display: inline-block;
+}
+
+.header .left h1 {
+    font-weight: 600;
+    font-size: 72px;
+    margin: 30px 0px;
+}
+
+.header .left span {
+    font-weight: 400;
+}
+
+.header .left h2 {
+    font-size: 48px;
+    font-weight: 400;
+    margin: 30px 0px;
+}
+
+.header button {
+    width: 252px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: #19A89D;
+    color: #F5F5F5;
+    padding: 20px 28px;
+    border-style: none;
+}
+
+.header img {
+    width: 652px;
+    height: 630.67px;
+}
+
+/* INFORMATION - MENTOR & MENTEE */
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 128px 150px 128px;
+}
+
+.information .mentor {
+    width: 703px;
+}
+
+.information .mentee {
+    width: 689px;
+}
+
+.sub-title {
+    display: flex;
+}
+
+.sub-title h1 {
+    font-size: 64px;
+    font-weight: 600;
+    padding-left: 24px;
+}
+
+.paragraph {
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* VIDEO BSLC */
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin: 0px 128px 150px 128px;
+}
+
+.video h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.video iframe {
+    width: 835px;
+    height: 505px;
+}
+
+/* USER FEEDBACK - QUESTION, SUGGESTIONS, AND CRITIQUES */
+.user-feedback {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    margin: 0px 128px 73px 128px;
+}
+
+.user-feedback .left {
+    width: 962px;
+    display: block;
+}
+
+.user-feedback h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.user-feedback input {
+    width: 962px;
+    height: 60px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    padding-left: 28px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+input:placeholder-shown {
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+ }
+
+ .user-feedback button {
+    width: 260px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: #19A89D;
+    color: #F5F5F5;
+    padding: 20px 28px;
+    border-style: none;
+}
+
+.user-feedback .right {
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 490px;
+    background-color: #292929;
+    padding: 0px 127.5px;
+}
+
+.footer p {
+    font-size: 28px;
+    font-weight: 400;
+    text-align: justify;
+    color: white;
+}
+
+.footer .social-media img {
+    padding-right: 36px;
+}
+
+/* WEBSITE INTERACTIVITY */
+button:hover {
+    background-color: #0f7a70;
+    cursor: pointer;
+}
+
+.nav-bar .right p:hover {
+    color: #19A89D;
+}
